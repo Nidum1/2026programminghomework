@@ -151,3 +151,5 @@ y_pred_opt_mapped = evaluate_clustering(y_test, y_pred_opt, "优化后 (PCA + K-
 
 # 可视化 (直接使用PCA的前两个分量)
 plot_results(X_test_pca[:, :2], y_pred_opt_mapped, "Experiment 2: Optimized K-Means (PCA Preprocessing)")
+
+
